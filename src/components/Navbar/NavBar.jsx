@@ -1,6 +1,9 @@
 import React from "react";
+
 import { IoMdSearch } from "react-icons/io";
 import { LuShoppingCart } from "react-icons/lu";
+import { FaAngleDown } from "react-icons/fa";
+
 import DarkModeToggle from "./DarkModeToggle";
 
 const menuItems = [
@@ -25,6 +28,23 @@ const menuItems = [
     url: "/blogs",
   },
 ];
+const dropdownItems = [
+  {
+    id: 1,
+    name: "Trending products",
+    url: "/#",
+  },
+  {
+    id: 2,
+    name: "Best selling",
+    url: "/#",
+  },
+  {
+    id: 3,
+    name: "Top rated",
+    url: "/#",
+  },
+];
 
 const NavBar = () => {
   return (
@@ -38,12 +58,14 @@ const NavBar = () => {
         z-40"
     >
       <div className="py-4">
-        <div className="
+        <div
+          className="
             container 
             flex 
             justify-between 
             items-center
-        ">
+        "
+        >
           {/* Logo & menu */}
           <div className="flex gap-4 items-center">
             <a
@@ -80,25 +102,89 @@ const NavBar = () => {
                     </a>
                   </li>
                 ))}
+                {/* Dropdown menu */}
+                <li className="relative cursor-pointer group">
+                  <a
+                    className="
+                        flex 
+                        items-center
+                        gap-[2px]
+                        font-semibold
+                        text-gray-500
+                        hover:text-black
+                        dark:hover:text-white
+                        py-2
+                    ">Quick Access
+                    <span>
+                      <FaAngleDown
+                        className="
+                            group-hover:rotate-180
+                            duration-300
+                        "
+                      />
+                    </span>
+                  </a>
+                  {/* Dropdown Items */}
+                  <div className="
+                    absolute 
+                    z-99 
+                    hidden 
+                    group-hover:block 
+                    w-[200px]
+                    rounded-md
+                    bg-white
+                    shadow-md
+                    dark:bg-gray-900
+                    p-2
+                    dark:text-white
+                    ">
+                    <ul className="space-y-2">
+                      {dropdownItems.map((item,index) =>
+                        <li key={index}>
+                          <a 
+                            href={item.url}
+                            className='
+                            text-gray-500 
+                           
+                            dark:hover:text-white
+                            duration-200
+                            p-2
+                            inline-block
+                            w-full
+                            hover:bg-primary/20
+                            rounded-md
+                            font-semibold
+                            '
+                            
+                          >{item.name}</a>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
           {/* Right Navbar Section */}
-          <div className="
+          <div
+            className="
             flex
             justify-between
             items-center
             gap-4
-          ">
+          "
+          >
             {/* Search bar */}
             <div className="relative group hidden sm:block">
-              <input 
-                type="text" 
-                placeholder="Search" 
+              <input
+                type="text"
+                placeholder="Search"
                 className="
                     search-bar
-                " />
-              <IoMdSearch className="
+                "
+              />
+              <IoMdSearch
+                className="
                 text-xl 
                 text-gray-600
                 dark:text-gray-400
@@ -108,16 +194,20 @@ const NavBar = () => {
                 -translate-y-1/2
                 right-3
                 duration-200
-                " />
+                "
+              />
             </div>
             {/* cart button section */}
             <button className="relative p-3">
-                <LuShoppingCart className="
+              <LuShoppingCart
+                className="
                     text-xl
                     text-gray-600
                     dark:text-gray-400
-                "/>
-                <div className="
+                "
+              />
+              <div
+                className="
                     w-4
                     h-4
                     bg-red-500
@@ -130,11 +220,14 @@ const NavBar = () => {
                     items-center
                     justify-center
                     text-xs
-                ">3</div>
+                "
+              >
+                3
+              </div>
             </button>
             {/* dark mode toggle button */}
             <div>
-                <DarkModeToggle />
+              <DarkModeToggle />
             </div>
           </div>
         </div>
