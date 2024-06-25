@@ -52,7 +52,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container mt-11">
       <div
         className="
             overflow-hidden 
