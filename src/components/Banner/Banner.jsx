@@ -10,7 +10,7 @@ const Banner = ({ data }) => {
           className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl">
           {/* first column */}
           <div className="p-6 sm:p-8">
-            <p className="text-sm">{data.discount}</p>
+            <p className="text-5xl font-semibold">{data.discount}</p>
             <h1
               className="
                 uppercase 
@@ -23,12 +23,11 @@ const Banner = ({ data }) => {
               {" "}
               {data.title}
             </h1>
-            <p className="text-sm">{data.discount}</p>
           </div>
           {/* second column */}
           <div className="h-full flex items-center">
             <img src={data.image} alt="headphones" 
-              className="scale-125 w-[250px] md:w-[340px] max-auto drop-shadow-2xl object-cover
+              className="scale-125 w-[250px] md:w-[340px] mx-auto drop-shadow-2xl object-cover
               " />
           </div>
           {/* third column */}
