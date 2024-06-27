@@ -11,14 +11,14 @@ const ProductGrid = ({ data }) => {
         {data.map((data) => (
           <div key={data.id}
             className="group">
-            <div className="relative space-y-3">
+            <div className="relative space-y-3 overflow-hidden">
               <img 
                 src={data.image} 
                 alt={data.title}
                 className="h-[180px] w-[260px] object-cover rounded-md" />
                 {/* hover button */}
                 <div className="hidden group-hover:flex absolute top-1/2 
-                -translate-y-1/2 w-full h-full text-center 
+                -translate-y-1/2 w-full h-full text-center
                 group-hover:backdrop-blur-sm justify-center items-center 
                 duration-200">
                     <Button 
