@@ -46,7 +46,7 @@ const dropdownItems = [
   },
 ];
 
-const NavBar = () => {
+const NavBar = ({ handleOrderPopup }) => {
   return (
     <div
       className="
@@ -198,7 +198,7 @@ const NavBar = () => {
               />
             </div>
             {/* cart button section */}
-            <button className="relative p-3">
+            <button className="relative p-3" onClick={handleOrderPopup}>
               <LuShoppingCart
                 className="
                     text-xl

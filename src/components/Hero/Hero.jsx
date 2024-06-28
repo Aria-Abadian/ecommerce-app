@@ -38,7 +38,7 @@ const HeroSliderData = [
   },
 ];
 
-const Hero = () => {
+const Hero = ({ handleOrderPopup }) => {
   const settings = {
     dots: false,
     arrow: false,
@@ -89,23 +89,37 @@ const Hero = () => {
                         z-10
                     "
                   >
-                    <h1 
-                        className="
+                    <h1
+                      data-aos="zoom-out"
+                      data-aos-duration="400"
+                      data-aos-once="true"
+                      className="
                             text-2xl
                             sm:text-6xl
                             lg:text-2xl
                             font-bold
                         "
-                    >{data.subtitle}</h1>
+                    >
+                      {data.subtitle}
+                    </h1>
                     <h1
-                        className="
+                      data-aos="zoom-out"
+                      data-aos-duration="700"
+                      data-aos-once="true"
+                      className="
                             text-5xl
                             sm:text-6xl
                             lg:text-7xl
                             font-bold
-                        ">{data.title}</h1>
+                        "
+                    >
+                      {data.title}
+                    </h1>
                     <h1
-                        className="
+                      data-aos="zoom-out"
+                      data-aos-duration="500"
+                      data-aos-once="true"
+                      className="
                             text-5xl
                             uppercase
                             text-white
@@ -115,12 +129,20 @@ const Hero = () => {
                             xl:text-[150px]
                             font-bolds
                         "
-                    >{data.title2}</h1>
-                    <div>
-                      <Button 
-                        text='Shop by the category'
-                        bgColor='bg-primary'
-                        textColor='text-white'
+                    >
+                      {data.title2}
+                    </h1>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-offset="0"
+                      data-aos-duration="800"
+                      data-aos-delay="300"
+                    >
+                      <Button
+                        text="Shop by the category"
+                        bgColor="bg-primary"
+                        textColor="text-white"
+                        handler={handleOrderPopup}
                       ></Button>
                     </div>
                   </div>
@@ -131,7 +153,7 @@ const Hero = () => {
                         sm:order-2
                     "
                   >
-                    <div>
+                    <div data-aos="zoom-in" data-aos-once="true" className="relative z-10">
                       <img
                         src={data.img}
                         alt={data.title}

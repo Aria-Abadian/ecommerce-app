@@ -45,9 +45,11 @@ const Footer = () => {
             >
               Shopline
             </a>
-            <p className="text-gray-600 lg:pr-24 pt-3 dark:text-white/70">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusamus delectus numquam possimus reprehenderit nihil.
+            <p className="text-gray-600 lg:pr-24 pt-3 dark:text-white/70 text-justify">
+            Welcome to the ultimate digital marketplace your one-stop shop for 
+            the latest gadgets, tech essentials, and innovative accessories. Dive
+            into a world where convenience meets modernity, all at the click of a
+            button!
             </p>
             <p className="text-gray-500 dark:text-gray-400 mt-4">
               Created in 2024 by Aria Abadian
