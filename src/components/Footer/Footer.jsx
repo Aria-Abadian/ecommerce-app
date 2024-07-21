@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   const footerLinks = [
     {
-      title: "Home",
+      title: "Store",
       url: "/#",
     },
     {
@@ -21,8 +21,19 @@ const Footer = () => {
       title: "Contact",
       url: "/#contact",
     },
+    
+  ];
+  const quickAccess = [
     {
-      title: "Blog",
+      title: "Back to top",
+      url: "/#",
+    },
+    {
+      title: "Categories",
+      url: "/#about",
+    },
+    {
+      title: "Blogs",
       url: "/#blog",
     },
   ];
@@ -87,7 +98,7 @@ const Footer = () => {
                 Quick Access
               </h1>
               <ul className="space-y-3">
-                {footerLinks.map((data, index) => (
+                {quickAccess.map((data, index) => (
                   <li key={index}>
                     <a
                       href={data.url}

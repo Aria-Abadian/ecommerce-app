@@ -1,0 +1,113 @@
+[
+    {
+        "id":"1",
+        "category":"laptop",
+        "name":"Acer Laptop Aspire 5 Intel Core i7-1355U 16 GB LPDDR5 Memory 512 GB PCIe SSD Intel Iris Xe Graphics 15.6'' Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-360-267-S03.jpg",
+        "cpu":"Core i9 13900HX Processor",
+        "vga":"GeForce RTX 4080 12GB",
+        "price":"549.99",
+        "ram":"32GB RAM",
+        "srorage":"512 GB PCIe SSD"
+    },
+    {
+        "id":"2",
+        "category":"laptop",
+        "name":"MSI Bravo 15 C7VFKP 15.6'' 144 Hz IPS AMD Ryzen 9 7940HS GeForce RTX 4060 Laptop GPU 16GB Memory 1 TB NVMe SSD Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-156-587-15.jpg",
+        "cpu":"AMD Ryzen 9 7940HS",
+        "vga":" GeForce RTX 4060 Laptop GPU",
+        "price":"979.99",
+        "ram":"16GB",
+        "srorage":"1 TB PCIe SSD"
+    },
+    {
+        "id":"3",
+        "category":"laptop",
+        "name":"Acer Nitro V ANV15-51-75HE 15.6 inch 144 Hz IPS Intel Core i7-13620H GeForce RTX 4050 Laptop GPU 16GB Memory 1 TB PCIe SSD Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-360-319-09.jpg",
+        "cpu":" Intel Core i7-13620H",
+        "vga":"GeForce RTX 4050 Laptop GPU",
+        "price":"899.99",
+        "ram":"16GB",
+        "srorage":"1TB SSD"
+    },
+    {
+        "id":"4",
+        "category":"laptop",
+        "name":"HP Essential 255 G8 Laptop, 15.6 inch FHD Display, AMD Ryzen 5 5500U, 32GB RAM, 1TB PCIe SSD, Webcam, SD Card Reader, HDMI, Wi-Fi 6, Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/B0GJS240205100ORS02.jpg",
+        "cpu":"AMD Ryzen 5",
+        "vga":"AMD Radeon Graphics",
+        "price":"549.00",
+        "ram":"16GB RAM",
+        "srorage":"1 TB PCIe SSD"
+    },
+    {
+        "id":"5",
+        "category":"laptop",
+        "name":"MSI Modern 14 14inch Ultra Thin and Light Laptop AMD Ryzen 7-7730U UMA 16GB 512GB NVMe SSD Win 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-156-444-01.jpg",
+        "cpu":"AMD Ryzen 7 PRO 7730U",
+        "vga":"AMD Radeon Graphics",
+        "price":"499.99",
+        "ram":"16GB",
+        "srorage":"512 GB NVMe SSD"
+    },
+    {
+        "id":"6",
+        "category":"laptop",
+        "name":"GIGABYTE G6 Series G6 KF-H3US854KH 16'' 165 Hz IPS Intel Core i7-13620H GeForce RTX 4060 Laptop GPU 16GB Memory 1 TB PCIe SSD Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-233-581-01.jpg",
+        "cpu":"Intel Core i7-13620H",
+        "vga":"GeForce RTX 4060 Laptop GPU",
+        "price":"1,019.99",
+        "ram":"16GB",
+        "srorage":"1 TB PCIe SSD"
+    },
+    {
+        "id":"7",
+        "category":"laptop",
+        "name":"LENOVO ThinkPad E16 Gen 1 Business Laptop, 16'' FHD+ Display, AMD Ryzen 7 7730U, 24GB RAM, 1TB SSD, Backlit Keyboard, Fingerprint Reader",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/B0GJD2402050W39M8D8.jpg",
+        "cpu":"AMD Ryzen 7",
+        "vga":"AMD Radeon Graphics",
+        "price":"749.00",
+        "ram":"24GB",
+        "srorage":"1 TB PCIe SSD"
+    },
+    {
+        "id":"8",
+        "category":"laptop",
+        "name":"GIGABYTE G6 Series G6 KF-H3US865KH 16'' 165 Hz IPS Intel Core i7-13620H GeForce RTX 4060 Laptop GPU 32GB Memory 2 TB PCIe SSD Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-233-577-01.jpg",
+        "cpu":"Intel Core i7-13620H",
+        "vga":"GeForce RTX 4060 Laptop GPU",
+        "price":"1,259.99",
+        "ram":"32GB",
+        "srorage":"2 TB PCIe SSD"
+    },
+    {
+        "id":"9",
+        "category":"laptop",
+        "name":"HP Chromebook Intel Processor N100 4 GB LPDDR5 Memory 64 GB eMMC SSD 14.0'' Chrome OS 14a-nf0000nr",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-841-818-01.jpg",
+        "cpu":"Intel Processor N100 0.80 GHz",
+        "vga":"Intel UHD Graphics",
+        "price":"179.99",
+        "ram":"4 GB LPDDR5",
+        "srorage":"64 GB eMMC SSD"
+    },
+    {
+        "id":"10",
+        "category":"laptop",
+        "name":"Auusda 15.6'' Gaming Laptop w/AMD Ryzen 7 5700U up to 4.3GHz, 32GB DDR4 RAM 1TB NVMe SSD, Windows 11",
+        "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/BRFSS2402020HZ1079D.jpg",
+        "cpu":"AMD Ryzen 7 5700U",
+        "vga":"Radeon RX Vega 8",
+        "price":"599.99",
+        "ram":"32GB RAM",
+        "srorage":"1 TB SSD"
+    }
+    
+]

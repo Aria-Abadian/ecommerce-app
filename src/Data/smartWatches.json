@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "name": "Apple Watch Series 8",
+        "category": "SmartWatches",
+        "price": "400",
+        "image": "https://store-apple.msk.ru/image/cache/catalog/tovary/applewatch/series-8/apple-watch-series-8-krasnyy-800x800.jpeg"
+    },
+    {
+        "id": "2",
+        "name": "Samsung Galaxy Watch 5",
+        "category": "SmartWatches",
+        "price": "350",
+        "image": "https://cdn.samsungstore.ru/iblock/e5e/e5ed63b3af911e7cd83219012811f099/6c6e5bd175ee80f9ea6b5aedf69a942e.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Fitbit Versa 4",
+        "category": "SmartWatches",
+        "price": "200",
+        "image": "https://chipgifts.ru/image/cache///Fitbit/Fitbit%20Versa%204/fitbit_versa4_2-1000x1000.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Garmin Fenix 7",
+        "category": "SmartWatches",
+        "price": "600",
+        "image": "https://fenix-7.ru/wp-content/uploads/2022/08/fenix7solar1.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Fossil Gen 6",
+        "category": "SmartWatches",
+        "price": "300",
+        "image": "https://m.chodo.ru/userfiles/images/photogalleries/14173_1/1641897598_ftw4062_main.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Amazfit GTR 3 Pro",
+        "category": "SmartWatches",
+        "price": "220",
+        "image": "https://ae04.alicdn.com/kf/S7b87d78d3fba4ba483f8eebb80185de0Z.jpg_640x640.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Huawei Watch GT 3",
+        "category": "SmartWatches",
+        "price": "250",
+        "image": "https://cifra39.com/wa-data/public/shop/products/99/37/3799/images/12529/12529.970.jpg"
+    },
+    {
+        "id": "8",
+        "name": "TicWatch Pro 4",
+        "category": "SmartWatches",
+        "price": "300",
+        "image": "https://ae04.alicdn.com/kf/Hfecd6461d0b341b180ad15add8d56f0dk.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Suunto 9 Baro",
+        "category": "SmartWatches",
+        "price": "500",
+        "image": "https://www.suunto.com/globalassets/productimages/suunto-9/baro-black/front/ss050019000-suunto9-gen1-baro-black-front-view_tr-options-batterymode-01.png?height=900&format=jpg"
+    },
+    {
+        "id": "10",
+        "name": "Mobvoi TicWatch E3",
+        "category": "SmartWatches",
+        "price": "200",
+        "image": "https://ae04.alicdn.com/kf/H7916e54fcaf647ec885ce1a523d3dd27g.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Apple Watch SE 2",
+        "category": "SmartWatches",
+        "price": "280",
+        "image": "https://apple-market.ru/image/cache/catalog/Add/Watch%20SE%202022/d136c5c57b4fee0ae110971fc3d1dc80.jpeg_500.webp"
+    },
+    {
+        "id": "12",
+        "name": "Samsung Galaxy Watch Active 3",
+        "category": "SmartWatches",
+        "price": "250",
+        "image": "https://files.ekmcdn.com/hdewcameras/images/samsung-galaxy-watch-active-r500-black-10589-p.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Fitbit Charge 5",
+        "category": "SmartWatches",
+        "price": "180",
+        "image": "https://m.media-amazon.com/images/I/61MUCsbcAkL.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Garmin Forerunner 955",
+        "category": "SmartWatches",
+        "price": "600",
+        "image": "https://static.insales-cdn.com/images/products/1/4267/646713515/garmin-forerunner-955-whitestone-1.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Fossil Sport 2",
+        "category": "SmartWatches",
+        "price": "255",
+        "image": "https://i.ebayimg.com/images/g/Bd4AAOSw-elhSKAU/s-l1200.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Amazfit Bip U Pro",
+        "category": "SmartWatches",
+        "price": "70",
+        "image": "https://watchsport.ru/upload/iblock/283/2832ab8a58bdd5145866e7d0b940570d.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Huawei Watch Fit 2",
+        "category": "SmartWatches",
+        "price": "110",
+        "image": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-12/064/048/188/121/938/100034672650b0.jpg"
+    },
+    {
+        "id": "18",
+        "name": "TicWatch GTH Pro",
+        "category": "SmartWatches",
+        "price": "80",
+        "image": "https://img.myipadbox.com/sec/product_l/EDA004098913.jpg"
+    },
+    {
+        "id": "19",
+        "name": "Suunto 7 Titanium",
+        "category": "SmartWatches",
+        "price": "500",
+        "image": "https://www.suunto.com/globalassets/productimages/suunto-7/stone-gray-titanium/ss050567000-suunto-7-stone-gray-titanium-perspective-tile-sleep-wearos-01.png"
+    },
+    {
+        "id": "20",
+        "name": "Mobvoi TicWatch Pro 3 Ultra",
+        "category": "SmartWatches",
+        "price": "300",
+        "image": "https://www.mytrendyphone.eu/images/Mobvoi-TicWatch-Pro-3-Ultra-LTE-Smartwatch-Shadow-Black-6940447103909-02042024-00-p.webp"
+    }
+]
