@@ -22,7 +22,7 @@ const Cart = ({ cartItems,onQuantityIncrease }) => {
           <div className="text-white">
             <h4>{cartItem.name.slice(0,30)} ...</h4>
             <div className="flex flex-row justify-start gap-[3vw]">
-              <p>Price: ${cartItem.price * 1}</p>
+              <p>Price: ${cartItem.price * cartItem.quantity}</p>
               <div className="flex flex-row gap-[2vw] justify-center items-center">
                 <p> Quantity:</p>
                 <button
@@ -31,7 +31,7 @@ const Cart = ({ cartItems,onQuantityIncrease }) => {
                 >
                   <p className="-translate-y-[.3vw]">-</p>
                 </button>
-                <span>{1}</span>
+                <span>{cartItem.quantity}</span>
                 <button
                   onClick={onQuantityIncrease}
                   className="bg-primary w-[4vw] h-[4vw] rounded-full flex justify-center items-center"

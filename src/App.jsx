@@ -28,7 +28,18 @@ const App = () => {
   //temp data
   const [cartItems, setCartItems] = useState([]);
   const handleAddToCart = (childData) => {
-    setCartItems(cartItems => [...cartItems, childData]);
+    setCartItems((prevItems) => {
+      const itemIndex = prevItems.findIndex(item => item.id === childData.id);
+      if (itemIndex !== -1) {
+        // Item already exists, increase the quantity
+        const updatedItems = [...prevItems];
+        updatedItems[itemIndex].quantity += 1;
+        return updatedItems;
+      } else {
+        // Item does not exist, add it to the cart with quantity 1
+        return [...prevItems, { ...childData, quantity: 1 }];
+      }
+    });
     console.log('Data received from child:', childData);
   };
 
