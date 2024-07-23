@@ -1,10 +1,10 @@
 [
     {
         "id":"1",
-        "category":"laptop",
+        "category":"laptops",
         "name":"Acer Laptop Aspire 5 Intel Core i7-1355U 16 GB LPDDR5 Memory 512 GB PCIe SSD Intel Iris Xe Graphics 15.6'' Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-360-267-S03.jpg",
-        "cpu":"Core i9 13900HX Processor",
+        "cpu":"Core i9 13900HX",
         "vga":"GeForce RTX 4080 12GB",
         "price":"549.99",
         "ram":"32GB RAM",
@@ -12,29 +12,29 @@
     },
     {
         "id":"2",
-        "category":"laptop",
+        "category":"laptops",
         "name":"MSI Bravo 15 C7VFKP 15.6'' 144 Hz IPS AMD Ryzen 9 7940HS GeForce RTX 4060 Laptop GPU 16GB Memory 1 TB NVMe SSD Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-156-587-15.jpg",
         "cpu":"AMD Ryzen 9 7940HS",
-        "vga":" GeForce RTX 4060 Laptop GPU",
+        "vga":" GeForce RTX 4060",
         "price":"979.99",
         "ram":"16GB",
         "srorage":"1 TB PCIe SSD"
     },
     {
         "id":"3",
-        "category":"laptop",
+        "category":"laptops",
         "name":"Acer Nitro V ANV15-51-75HE 15.6 inch 144 Hz IPS Intel Core i7-13620H GeForce RTX 4050 Laptop GPU 16GB Memory 1 TB PCIe SSD Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-360-319-09.jpg",
         "cpu":" Intel Core i7-13620H",
-        "vga":"GeForce RTX 4050 Laptop GPU",
+        "vga":"GeForce RTX 4050",
         "price":"899.99",
         "ram":"16GB",
         "srorage":"1TB SSD"
     },
     {
         "id":"4",
-        "category":"laptop",
+        "category":"laptops",
         "name":"HP Essential 255 G8 Laptop, 15.6 inch FHD Display, AMD Ryzen 5 5500U, 32GB RAM, 1TB PCIe SSD, Webcam, SD Card Reader, HDMI, Wi-Fi 6, Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/B0GJS240205100ORS02.jpg",
         "cpu":"AMD Ryzen 5",
@@ -45,7 +45,7 @@
     },
     {
         "id":"5",
-        "category":"laptop",
+        "category":"laptops",
         "name":"MSI Modern 14 14inch Ultra Thin and Light Laptop AMD Ryzen 7-7730U UMA 16GB 512GB NVMe SSD Win 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-156-444-01.jpg",
         "cpu":"AMD Ryzen 7 PRO 7730U",
@@ -56,18 +56,18 @@
     },
     {
         "id":"6",
-        "category":"laptop",
+        "category":"laptops",
         "name":"GIGABYTE G6 Series G6 KF-H3US854KH 16'' 165 Hz IPS Intel Core i7-13620H GeForce RTX 4060 Laptop GPU 16GB Memory 1 TB PCIe SSD Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-233-581-01.jpg",
         "cpu":"Intel Core i7-13620H",
-        "vga":"GeForce RTX 4060 Laptop GPU",
+        "vga":"GeForce RTX 4060",
         "price":"1,019.99",
         "ram":"16GB",
         "srorage":"1 TB PCIe SSD"
     },
     {
         "id":"7",
-        "category":"laptop",
+        "category":"laptops",
         "name":"LENOVO ThinkPad E16 Gen 1 Business Laptop, 16'' FHD+ Display, AMD Ryzen 7 7730U, 24GB RAM, 1TB SSD, Backlit Keyboard, Fingerprint Reader",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/B0GJD2402050W39M8D8.jpg",
         "cpu":"AMD Ryzen 7",
@@ -78,21 +78,21 @@
     },
     {
         "id":"8",
-        "category":"laptop",
+        "category":"laptops",
         "name":"GIGABYTE G6 Series G6 KF-H3US865KH 16'' 165 Hz IPS Intel Core i7-13620H GeForce RTX 4060 Laptop GPU 32GB Memory 2 TB PCIe SSD Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-233-577-01.jpg",
         "cpu":"Intel Core i7-13620H",
-        "vga":"GeForce RTX 4060 Laptop GPU",
+        "vga":"GeForce RTX 4060",
         "price":"1,259.99",
         "ram":"32GB",
         "srorage":"2 TB PCIe SSD"
     },
     {
         "id":"9",
-        "category":"laptop",
-        "name":"HP Chromebook Intel Processor N100 4 GB LPDDR5 Memory 64 GB eMMC SSD 14.0'' Chrome OS 14a-nf0000nr",
+        "category":"laptops",
+        "name":"HP Chromebook Intel Processor N100 4 GB LPDDR5 Memory 64 GB eMMC SSD 14.0'' Chrome OS",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/34-841-818-01.jpg",
-        "cpu":"Intel Processor N100 0.80 GHz",
+        "cpu":"Intel N100 0.80 GHz",
         "vga":"Intel UHD Graphics",
         "price":"179.99",
         "ram":"4 GB LPDDR5",
@@ -100,7 +100,7 @@
     },
     {
         "id":"10",
-        "category":"laptop",
+        "category":"laptops",
         "name":"Auusda 15.6'' Gaming Laptop w/AMD Ryzen 7 5700U up to 4.3GHz, 32GB DDR4 RAM 1TB NVMe SSD, Windows 11",
         "image":"https://c1.neweggimages.com/ProductImageCompressAll1280/BRFSS2402020HZ1079D.jpg",
         "cpu":"AMD Ryzen 7 5700U",
@@ -108,6 +108,426 @@
         "price":"599.99",
         "ram":"32GB RAM",
         "srorage":"1 TB SSD"
+    },
+	{
+        "id": "11",
+        "name": "Sony WH-1000XM5",
+        "category": "headphones",
+        "price": "350",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/969/auvd09sdtk24x7o8wb0zh0h49p2xo0t1/sony_wh1000xm5_black.webp"
+    },
+    {
+        "id": "12",
+        "name": "Bose QuietComfort 45",
+        "category": "headphones",
+        "price": "330",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/resize_cache/iblock/532/242_247_1/bode_qc45_1.webp"
+    },
+    {
+        "id": "13",
+        "name": "Apple AirPods Pro 2",
+        "category": "headphones",
+        "price": "250",
+        "image": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-10/106/405/619/291/546/100040565857b0.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Sennheiser Momentum 4",
+        "category": "headphones",
+        "price": "400",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/53c/cqawkz5jz2j8kkxlnhx1xetoaylcdky9/sennheiser_momentum4_white_00.webp"
+    },
+    {
+        "id": "15",
+        "name": "Jabra Elite 85h",
+        "category": "headphones",
+        "price": "220",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/6ed/Jabra_Elite_85h_1.webp"
+    },
+    {
+        "id": "16",
+        "name": "Beats Studio Buds",
+        "category": "headphones",
+        "price": "150",
+        "image": "https://m.media-amazon.com/images/I/51bRSWrEc7S._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Anker Soundcore Life Q30",
+        "category": "headphones",
+        "price": "80",
+        "image": "https://i.ebayimg.com/images/g/OuYAAOSwEkdg96Ad/s-l1200.webp"
+    },
+    {
+        "id": "18",
+        "name": "Bowers & Wilkins PX7",
+        "category": "headphones",
+        "price": "400",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/0ec/3viet01ecyrwvvdc14gfd13ahvksqey6/bowerswilkins_px7_s2_blue.webp"
+    },
+    {
+        "id": "19",
+        "name": "Microsoft Surface Headphones 3",
+        "category": "headphones",
+        "price": "250",
+        "image": "https://m.media-amazon.com/images/I/5131bpxLSNL.jpg"
+    },
+    {
+        "id": "20",
+        "name": "JBL Free X",
+        "category": "headphones",
+        "price": "120",
+        "image": "https://img.mvideo.ru/Big/50123942bb4.jpg"
+    },
+    {
+        "id": "21",
+        "name": "Sony WF-1000XM4",
+        "category": "headphones",
+        "price": "280",
+        "image": "https://personal-audio.ru/upload/iblock/990/phx90m2snmzlkhmdn2fem61gi1mda45x/sony_wf_1000_xm4_black_02.jpg"
+    },
+    {
+        "id": "22",
+        "name": "Bose SoundSport Free",
+        "category": "headphones",
+        "price": "200",
+        "image": "https://bo-store.ru/upload/medialibrary/b14/bose_soundsport_free_case.jpg"
+    },
+    {
+        "id": "23",
+        "name": "Apple AirPods Max",
+        "category": "headphones",
+        "price": "550",
+        "image": "https://istudio-msk.ru/a/istudio/files/multifile/2353/100027722265b1.webp"
+    },
+    {
+        "id": "24",
+        "name": "Sennheiser HD 660 S",
+        "category": "headphones",
+        "price": "500",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/577/ve81yjby25mbjek3au310ik17wex7zc3/sennheiser_hd_660_s2_black_1.webp"
+    },
+    {
+        "id": "25",
+        "name": "Jabra Elite 75t",
+        "category": "headphones",
+        "price": "180",
+        "image": "https://ispot.ru/upload/iblock/77b/5da4395c2f5ba90141536f3b-900Wx900H-820Wx820H.jpg"
+    },
+    {
+        "id": "26",
+        "name": "Beats Powerbeats Pro",
+        "category": "headphones",
+        "price": "250",
+        "image": "https://ispot.ru/upload/iblock/7d8/u19qsv0p4owir8sfhp3hklbov0v1wrx7/1.jpg"
+    },
+    {
+        "id": "27",
+        "name": "Anker Soundcore Liberty Air 2 Pro",
+        "category": "headphones",
+        "price": "130",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/942/ovex37ilri120vdg8t8gignrf6vws5zy/Anker-Soundcore-Liberty-Air-2-Pro-Titanium-White_1.webp"
+    },
+    {
+        "id": "28",
+        "name": "Bowers & Wilkins PI7",
+        "category": "headphones",
+        "price": "400",
+        "image": "https://doctorhead.ru/upload/resize_cache/webp/iblock/2df/p1y1cafauuap51vlz482srhs7qyf3bia/bowers_wilkins_pi7_s2_satin_black.webp"
+    },
+    {
+        "id": "29",
+        "name": "Microsoft Surface Earbuds",
+        "category": "headphones",
+        "price": "200",
+        "image": "https://chipgifts.ru/image/cache/Microsoft/Microsoft%20Surface%20Earbuds/-%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8-%D1%81-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D0%BC-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-microsoft-surface-earbuds_1-1000x1000.jpg"
+    },
+    {
+        "id": "30",
+        "name": "JBL Tune 225TWS",
+        "category": "headphones",
+        "price": "100",
+        "image": "https://www.dombelo.com/wp-content/uploads/2022/03/JBL-Tune-225TWS-True-Wireless-Earbud-Headphones.png"
+    },
+	{
+        "id": "31",
+        "name": "Samsung Galaxy S24 Ultra",
+        "category": "smartphones",
+        "price": "1200",
+        "image": "https://touchtime.ru/wa-data/public/shop/products/93/20/2093/images/9719/9719.580@2x.jpeg"
+    },
+    {
+        "id": "32",
+        "name": "Google Pixel 9 Pro",
+        "category": "smartphones",
+        "price": "1100",
+        "image": "https://www.ferra.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2024/03/28/05/6412431/651e4d38c7f2b2d021ab4a869555a1d1c3caedf8.png"
+    },
+    {
+        "id": "33",
+        "name": "iPhone 16 Pro Max",
+        "category": "smartphones",
+        "price": "1300",
+        "image": "https://m-cdn.phonearena.com/images/phones/84359-940/Apple-iPhone-16-Pro-Max.jpg"
+    },
+    {
+        "id": "34",
+        "name": "OnePlus Open 2",
+        "category": "smartphones",
+        "price": "900",
+        "image": "https://www.91-cdn.com/hub/wp-content/uploads/2024/05/oneplus-open-2-leak.jpg"
+    },
+    {
+        "id": "35",
+        "name": "Google Pixel 8 Pro",
+        "category": "smartphones",
+        "price": "1000",
+        "image": "https://images.biggeek.ru/1/435/554d/23219-133269484_R_Z001A.jpg"
+    },
+    {
+        "id": "36",
+        "name": "Samsung Galaxy Note 24",
+        "category": "smartphones",
+        "price": "1100",
+        "image": "https://basket-14.wbbasket.ru/vol2062/part206221/206221206/images/c516x688/1.webp"
+    },
+    {
+        "id": "37",
+        "name": "iPhone 16",
+        "category": "smartphones",
+        "price": "1200",
+        "image": "https://img.gazeta.ru/files3/835/18294835/Untitled-1-pic_32ratio_1200x800-1200x800-18915.jpg"
+    },
+    {
+        "id": "38",
+        "name": "OnePlus Open 2T",
+        "category": "smartphones",
+        "price": "800",
+        "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2023/10/oneplus-open.jpg"
+    },
+    {
+        "id": "39",
+        "name": "Google Pixel 9",
+        "category": "smartphones",
+        "price": "950",
+        "image": "https://myfusionmobile.com/wp-content/uploads/2024/02/Google-Pixel-9-500x500.jpg"
+    },
+    {
+        "id": "40",
+        "name": "Samsung Galaxy S24",
+        "category": "smartphones",
+        "price": "1000",
+        "image": "https://hi-stores.ru/upload/iblock/fed/tx0c623pe7r4ts2kot6y0nfp75h06zht.jpg"
+    },
+    {
+        "id": "41",
+        "name": "iPhone 16 Mini",
+        "category": "smartphones",
+        "price": "900",
+        "image": "https://www.mobilebazar.com.bd/assets/img/Apple-iPhone-16-Mini.webp"
+    },
+    {
+        "id": "42",
+        "name": "OnePlus Open 3",
+        "category": "smartphones",
+        "price": "850",
+        "image": "https://www.phoneprice.co.ke/wp-content/uploads/2023/08/OnePlus-Open-Emerald-Dusk1.jpg"
+    },
+    {
+        "id": "43",
+        "name": "Google Pixel 8",
+        "category": "smartphones",
+        "price": "900",
+        "image": "https://images.biggeek.ru/1/435/162b/23230-6653269374_R_Z001A.jpg"
+    },
+    {
+        "id": "44",
+        "name": "Samsung Galaxy Note 23",
+        "category": "smartphones",
+        "price": "1000",
+        "image": "https://ae04.alicdn.com/kf/S9c3d06aea33546e9a53a3129cb5c7d8a5.jpg_480x480.jpg"
+    },
+    {
+        "id": "45",
+        "name": "iPhone 15 Pro Max",
+        "category": "smartphones",
+        "price": "1200",
+        "image": "https://my-apple-store.ru/wa-data/public/shop/products/99/43/14399/images/26836/26836.500@2x.jpeg"
+    },
+    {
+        "id": "46",
+        "name": "OnePlus Open 3T",
+        "category": "smartphones",
+        "price": "800",
+        "image": "https://i.gadgets360cdn.com/large/oneplus_3t_silver_1496060428853.jpg"
+    },
+    {
+        "id": "47",
+        "name": "Google Pixel 7 Pro",
+        "category": "smartphones",
+        "price": "950",
+        "image": "https://images.biggeek.ru/1/435/49fe/19267-987fee_786_587_png-2.jpg"
+    },
+    {
+        "id": "48",
+        "name": "Samsung Galaxy S23 Ultra",
+        "category": "smartphones",
+        "price": "1150",
+        "image": "https://img.mvideo.ru/Big/30067224bb25.jpg"
+    },
+    {
+        "id": "49",
+        "name": "iPhone 15",
+        "category": "smartphones",
+        "price": "1100",
+        "image": "https://my-apple-store.ru/wa-data/public/shop/products/12/43/14312/images/26509/26509.500@2x.jpeg"
+    },
+    {
+        "id": "50",
+        "name": "OnePlus Open 1",
+        "category": "smartphones",
+        "price": "750",
+        "image": "https://www.91-cdn.com/hub/wp-content/uploads/2024/05/oneplus-open-2-leak.jpg"
+    },
+	{
+        "id": "51",
+        "name": "Apple Watch Series 8",
+        "category": "watches",
+        "price": "400",
+        "image": "https://store-apple.msk.ru/image/cache/catalog/tovary/applewatch/series-8/apple-watch-series-8-krasnyy-800x800.jpeg"
+    },
+    {
+        "id": "52",
+        "name": "Samsung Galaxy Watch 5",
+        "category": "watches",
+        "price": "350",
+        "image": "https://cdn.samsungstore.ru/iblock/e5e/e5ed63b3af911e7cd83219012811f099/6c6e5bd175ee80f9ea6b5aedf69a942e.jpg"
+    },
+    {
+        "id": "53",
+        "name": "Fitbit Versa 4",
+        "category": "watches",
+        "price": "200",
+        "image": "https://chipgifts.ru/image/cache///Fitbit/Fitbit%20Versa%204/fitbit_versa4_2-1000x1000.jpg"
+    },
+    {
+        "id": "54",
+        "name": "Garmin Fenix 7",
+        "category": "watches",
+        "price": "600",
+        "image": "https://fenix-7.ru/wp-content/uploads/2022/08/fenix7solar1.jpg"
+    },
+    {
+        "id": "55",
+        "name": "Fossil Gen 6",
+        "category": "watches",
+        "price": "300",
+        "image": "https://m.chodo.ru/userfiles/images/photogalleries/14173_1/1641897598_ftw4062_main.jpg"
+    },
+    {
+        "id": "56",
+        "name": "Amazfit GTR 3 Pro",
+        "category": "watches",
+        "price": "220",
+        "image": "https://ae04.alicdn.com/kf/S7b87d78d3fba4ba483f8eebb80185de0Z.jpg_640x640.jpg"
+    },
+    {
+        "id": "57",
+        "name": "Huawei Watch GT 3",
+        "category": "watches",
+        "price": "250",
+        "image": "https://cifra39.com/wa-data/public/shop/products/99/37/3799/images/12529/12529.970.jpg"
+    },
+    {
+        "id": "58",
+        "name": "TicWatch Pro 4",
+        "category": "watches",
+        "price": "300",
+        "image": "https://ae04.alicdn.com/kf/Hfecd6461d0b341b180ad15add8d56f0dk.jpg"
+    },
+    {
+        "id": "59",
+        "name": "Suunto 9 Baro",
+        "category": "watches",
+        "price": "500",
+        "image": "https://www.suunto.com/globalassets/productimages/suunto-9/baro-black/front/ss050019000-suunto9-gen1-baro-black-front-view_tr-options-batterymode-01.png?height=900&format=jpg"
+    },
+    {
+        "id": "60",
+        "name": "Mobvoi TicWatch E3",
+        "category": "watches",
+        "price": "200",
+        "image": "https://ae04.alicdn.com/kf/H7916e54fcaf647ec885ce1a523d3dd27g.jpg"
+    },
+    {
+        "id": "61",
+        "name": "Apple Watch SE 2",
+        "category": "watches",
+        "price": "280",
+        "image": "https://apple-market.ru/image/cache/catalog/Add/Watch%20SE%202022/d136c5c57b4fee0ae110971fc3d1dc80.jpeg_500.webp"
+    },
+    {
+        "id": "62",
+        "name": "Samsung Galaxy Watch Active 3",
+        "category": "watches",
+        "price": "250",
+        "image": "https://files.ekmcdn.com/hdewcameras/images/samsung-galaxy-watch-active-r500-black-10589-p.jpg"
+    },
+    {
+        "id": "63",
+        "name": "Fitbit Charge 5",
+        "category": "watches",
+        "price": "180",
+        "image": "https://m.media-amazon.com/images/I/61MUCsbcAkL.jpg"
+    },
+    {
+        "id": "64",
+        "name": "Garmin Forerunner 955",
+        "category": "watches",
+        "price": "600",
+        "image": "https://static.insales-cdn.com/images/products/1/4267/646713515/garmin-forerunner-955-whitestone-1.jpg"
+    },
+    {
+        "id": "65",
+        "name": "Fossil Sport 2",
+        "category": "watches",
+        "price": "255",
+        "image": "https://i.ebayimg.com/images/g/Bd4AAOSw-elhSKAU/s-l1200.jpg"
+    },
+    {
+        "id": "66",
+        "name": "Amazfit Bip U Pro",
+        "category": "watches",
+        "price": "70",
+        "image": "https://watchsport.ru/upload/iblock/283/2832ab8a58bdd5145866e7d0b940570d.jpg"
+    },
+    {
+        "id": "67",
+        "name": "Huawei Watch Fit 2",
+        "category": "watches",
+        "price": "110",
+        "image": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-12/064/048/188/121/938/100034672650b0.jpg"
+    },
+    {
+        "id": "68",
+        "name": "TicWatch GTH Pro",
+        "category": "watches",
+        "price": "80",
+        "image": "https://img.myipadbox.com/sec/product_l/EDA004098913.jpg"
+    },
+    {
+        "id": "69",
+        "name": "Suunto 7 Titanium",
+        "category": "watches",
+        "price": "500",
+        "image": "https://www.suunto.com/globalassets/productimages/suunto-7/stone-gray-titanium/ss050567000-suunto-7-stone-gray-titanium-perspective-tile-sleep-wearos-01.png"
+    },
+    {
+        "id": "70",
+        "name": "Mobvoi TicWatch Pro 3 Ultra",
+        "category": "watches",
+        "price": "300",
+        "image": "https://www.mytrendyphone.eu/images/Mobvoi-TicWatch-Pro-3-Ultra-LTE-Smartwatch-Shadow-Black-6940447103909-02042024-00-p.webp"
     }
     
 ]

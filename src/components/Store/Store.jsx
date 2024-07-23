@@ -1,22 +1,13 @@
 import React, { useState, useEffect } from "react";
-import smartWatches from "../../Data/smartWatches.json";
-import headphones from "../../Data/headphones.json";
-import smartphones from "../../Data/smartphones.json";
-import laptops from "../../Data/Products.json";
+import productsData from "../../Data/Products.json";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer/Footer";
 
 const Store = () => {
   // Combining all products into one array
-  const allProducts = [
-    ...laptops,
-    ...smartphones,
-    ...smartWatches,
-    ...headphones,
-  ];
 
   // State for storing the displayed products, current page, and selected category
-  const [products, setProducts] = useState(allProducts);
+  const [products, setProducts] = useState(productsData);
   const [currentPage, setCurrentPage] = useState(0);
   const [selectedOption, setSelectedOption] = useState("default");
 
@@ -25,27 +16,15 @@ const Store = () => {
     setSelectedOption(event.target.value);
   };
 
+  const filteredProducts =
+    selectedOption === "default"
+      ? products
+      : products.filter((product) => product.category === selectedOption);
   // Effect to update products based on selected category
   useEffect(() => {
-    switch (selectedOption) {
-      case "smartphones":
-        setProducts(smartphones);
-        break;
-      case "headphones":
-        setProducts(headphones);
-        break;
-      case "laptops":
-        setProducts(laptops);
-        break;
-      case "watches":
-        setProducts(smartWatches);
-        break;
-      default:
-        setProducts(allProducts);
-    }
     // Reset to the first page whenever the category changes
     setCurrentPage(0);
-  }, [selectedOption, allProducts]);
+  }, [selectedOption]);
 
   const productsPerPage = 10;
 
@@ -59,7 +38,7 @@ const Store = () => {
   };
 
   // Determine the products to display on the current page
-  const paginatedProducts = products.slice(
+  const paginatedProducts = filteredProducts.slice(
     currentPage * productsPerPage,
     (currentPage + 1) * productsPerPage
   );
@@ -129,6 +108,7 @@ const Store = () => {
             <button onClick={handlePreviousPage} disabled={currentPage === 0}>
               Previous Page
             </button>
+            <span>Page: {currentPage + 1} of {filteredProducts.length / 10}</span>
             <button
               onClick={handleNextPage}
               disabled={(currentPage + 1) * productsPerPage >= products.length}
