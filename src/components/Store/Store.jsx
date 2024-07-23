@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import productsData from "../../Data/Products.json";
+import products from "../../Data/Products.json";
 
 const Store = () => {
 
   // State for storing the displayed products, current page, and selected category
-  const [products, setProducts] = useState(productsData);
   const [currentPage, setCurrentPage] = useState(0);
   const [selectedOption, setSelectedOption] = useState("default");
 
@@ -19,7 +18,6 @@ const Store = () => {
       : products.filter((product) => product.category === selectedOption);
   // Effect to update products based on selected category
   useEffect(() => {
-    // Reset to the first page whenever the category changes
     setCurrentPage(0);
   }, [selectedOption]);
 
