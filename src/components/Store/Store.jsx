@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
 import productsData from "../../Data/Products.json";
-import NavBar from "../Navbar/NavBar";
-import Footer from "../Footer/Footer";
 
 const Store = () => {
-  // Combining all products into one array
 
   // State for storing the displayed products, current page, and selected category
   const [products, setProducts] = useState(productsData);
@@ -45,7 +42,6 @@ const Store = () => {
 
   return (
     <div className="dark:bg-slate-900">
-      <NavBar />
       <div className="p-[3vw] flex flex-col gap-[2vw] lg:flex lg:flex-row">
         <div className="lg:w-[15vw] lg:h-[100svh] rounded-[2vw] md:rounded-[.5vw] bg-gray-50 dark:bg-slate-800 p-[5vw] md:p-[2vw]">
           <aside>
@@ -118,7 +114,6 @@ const Store = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
