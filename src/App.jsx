@@ -26,20 +26,20 @@ const App = () => {
   };
 
   //temp data
-  const cartItems = [
-    {
-      id: 2,
-      quantity: 2,
-    },
-  ];
+  const [cartItems, setCartItems] = useState([]);
+  const handleAddToCart = (childData) => {
+    setCartItems(cartItems => [...cartItems, childData]);
+    console.log('Data received from child:', childData);
+  };
 
+  console.log(cartItems);
   return (
     <Router>
       <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-        <Cart cartItems={cartItems}/>
+        <Cart cartItems={cartItems} />
         <NavBar handleOrderPopup={handleOrderPopup} />
         <Routes>
-          <Route path="/products" element={<Store cartItems={cartItems}/>} />
+          <Route path="/products" element={<Store onAddToCart={handleAddToCart} />} />
           <Route
             path="/"
             element={<Home handleOrderPopup={handleOrderPopup} />}

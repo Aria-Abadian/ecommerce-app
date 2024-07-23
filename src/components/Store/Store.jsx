@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
 import products from "../../Data/Products.json";
 
-const Store = () => {
+const Store = ({onAddToCart}) => {
 
   // State for storing the displayed products, current page, and selected category
   const [currentPage, setCurrentPage] = useState(0);
   const [selectedOption, setSelectedOption] = useState("default");
+
+  const sendCartDataToParent = (data) => {
+    onAddToCart(data);
+  };
 
   // Handler for category selection change
   const handleChange = (event) => {
@@ -37,6 +41,7 @@ const Store = () => {
     currentPage * productsPerPage,
     (currentPage + 1) * productsPerPage
   );
+
 
   return (
     <div className="dark:bg-slate-900">
@@ -91,7 +96,9 @@ const Store = () => {
                   <p className="text-[4.5vw] md:text-[1vw] text-primary">
                     ${product.price}
                   </p>
-                  <button className="md:text-[1vw] bg-primary text-white px-[5vw] md:px-[2vw] py-[1vw] md:py-[.5vw] rounded-full shadow-md">
+                  <button 
+                    onClick={() => sendCartDataToParent(product)}
+                    className="md:text-[1vw] bg-primary text-white px-[5vw] md:px-[2vw] py-[1vw] md:py-[.5vw] rounded-full shadow-md">
                     Add to Cart
                   </button>
                 </div>
