@@ -24,6 +24,15 @@ const App = () => {
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };
+  const [openCart, setOpenCart] = useState('translate-x-full');
+
+  const handleOpenCartMenu = () =>{
+    setOpenCart('translate-x-0');
+  }
+  
+  const handleCloseCartMenu = () =>{
+    setOpenCart('translate-x-full');
+  }
 
   //temp data
   const [cartItems, setCartItems] = useState([]);
@@ -40,15 +49,13 @@ const App = () => {
         return [...prevItems, { ...childData, quantity: 1 }];
       }
     });
-    console.log('Data received from child:', childData);
   };
 
-  console.log(cartItems);
   return (
     <Router>
       <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-        <Cart cartItems={cartItems} />
-        <NavBar handleOrderPopup={handleOrderPopup} />
+        <Cart handleCheckout={handleOrderPopup} closeCartMenu={handleCloseCartMenu} openCartMenu={openCart} cartItems={cartItems} />
+        <NavBar itemLength={cartItems.length} openCartMenu={handleOpenCartMenu} />
         <Routes>
           <Route path="/products" element={<Store onAddToCart={handleAddToCart} />} />
           <Route

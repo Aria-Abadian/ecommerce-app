@@ -46,4 +46,14 @@
       mb-4      
       ;
   }
+  .noScrollBar{
+    /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  
+
+  }
+  .noScrollBar::-webkit-scrollbar{
+    display: none;
+  }
 }

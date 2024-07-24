@@ -15,7 +15,7 @@ const menuItems = [
   {
     id: 2,
     name: "Store",
-    url: "/#store",
+    url: "/products",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const dropdownItems = [
   },
 ];
 
-const NavBar = ({ handleOrderPopup }) => {
+const NavBar = ({ openCartMenu, itemLength }) => {
   return (
     <div
       className="
@@ -198,7 +198,7 @@ const NavBar = ({ handleOrderPopup }) => {
               />
             </div>
             {/* cart button section */}
-            <button className="relative p-3" onClick={handleOrderPopup}>
+            <button className="relative p-3" onClick={openCartMenu}>
               <LuShoppingCart
                 className="
                     text-xl
@@ -222,7 +222,7 @@ const NavBar = ({ handleOrderPopup }) => {
                     text-xs
                 "
               >
-                3
+                {itemLength}
               </div>
             </button>
             {/* dark mode toggle button */}

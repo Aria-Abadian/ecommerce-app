@@ -46,16 +46,17 @@ const Store = ({onAddToCart}) => {
   return (
     <div className="dark:bg-slate-900">
       <div className="p-[3vw] flex flex-col gap-[2vw] lg:flex lg:flex-row">
-        <div className="lg:w-[15vw] lg:h-[100svh] rounded-[2vw] md:rounded-[.5vw] bg-gray-50 dark:bg-slate-800 p-[5vw] md:p-[2vw]">
+        <div className="lg:w-[20vw] lg:h-[100svh] rounded-[2vw] md:rounded-[.5vw] bg-gray-50 dark:bg-slate-800 p-[5vw] md:p-[2vw]">
           <aside>
             <div className="flex flex-col gap-[2vw] md:gap-[2vw]">
-              <h3 className="mb-[2vw] lg:mb-0 text-slate-600 dark:text-slate-300 font-bold text-[5vw] md:text-[1.5vw]">
+              <h3 className="mb-[2vw] lg:mb-0 text-slate-600 dark:text-slate-300 font-bold text-[5vw] md:text-[3vw] lg:text-[1.7vw]">
                 Filters
               </h3>
               <select
                 value={selectedOption}
                 onChange={handleChange}
-                className="p-[2vw] text-slate-600 dark:text-slate-300 rounded-[1vw] dark:bg-slate-700"
+                className="p-[2vw] md:p-[1vw] lg:p-[.5vw] 2xl:text-[1.2vw] text-slate-600 dark:text-slate-300 rounded-[1vw] md:rounded-[.5vw]
+                lg:rounded-[.2vw] md:w-[20vw] lg:w-[15vw] lg:h-[3vw] md:text-[2vw] lg:text-[1.4vw] dark:bg-slate-700"
               >
                 <option value="default">All Categories</option>
                 <option value="smartphones">Smartphones</option>
@@ -67,38 +68,41 @@ const Store = ({onAddToCart}) => {
           </aside>
         </div>
 
-        <div className="grid grid-flow-row grid-cols-1 md:grid-flow-row md:grid-cols-3 lg:grid-cols-4 gap-[5vw] md:gap-[2vw]">
+        <div className="grid grid-flow-row grid-cols-1 md:grid-flow-row md:grid-cols-3 xl:grid-cols-3 gap-[5vw] md:gap-[2vw]">
           {paginatedProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-gray-50 dark:bg-slate-800 shadow-md rounded-[2vw] md:rounded-[.5vw] flex flex-col"
+              className="bg-gray-50 dark:bg-slate-800 pt-[.5vw] shadow-md rounded-[2vw] md:rounded-[.5vw] flex flex-col justify-between"
             >
-              <div className="rounded-[2vw] md:rounded-[.5vw] overflow-hidden m-[5vw] md:m-[1vw] flex justify-center">
-                <img
-                  className="md:h-[28vh] bg-white"
-                  src={product.image}
-                  alt={product.name}
-                />
-              </div>
               <div className="mx-[5vw] md:mx-[1vw] text-slate-800 dark:text-slate-100 font-semibold md:font-bold">
-                <h4 className="text-[5vw] md:text-[1vw] ">
+                <div className="bg-white md:h-[15vw] rounded-[2vw] md:rounded-[.5vw] overflow-hidden m-[5vw] md:m-[1vw] flex justify-center">
+                  <img
+                    className="md:h-[15vw] bg-white"
+                    src={product.image}
+                    alt={product.name}
+                  />
+                </div>
+                <h4 className="text-[5vw] md:text-[1.6vw] ">
                   {product.name.length > 95
                     ? product.name.slice(0, 95) + "..."
                     : product.name}
                 </h4>
-                <div className="my-[5vw] md:my-[1vw] text-slate-600 dark:text-slate-300 text-[3.8vw] md:text-[.9vw] grid grid-flow-row gap-[1vw]">
+              </div>
+              <div className="mx-[5vw] md:mx-[1vw] text-slate-800 dark:text-slate-100 font-semibold md:font-bold">
+                
+                <div className="my-[5vw] md:my-[1vw] text-slate-600 dark:text-slate-300 text-[3.8vw] md:text-[1.4vw] lg:text-[1.3vw] grid grid-flow-row gap-[1vw]">
                   {product.cpu && <p>CPU: {product.cpu}</p>}
                   {product.ram && <p>Memory: {product.ram}</p>}
                   {product.storage && <p>Storage: {product.storage}</p>}
                   {product.vga && <p>GPU: {product.vga}</p>}
                 </div>
-                <div className="flex justify-between items-center mb-[5vw] md:mb-[1vw]">
-                  <p className="text-[4.5vw] md:text-[1vw] text-primary">
+                <div className="flex justify-between items-end mb-[5vw] md:mb-[1vw]">
+                  <p className="text-[4.5vw] md:text-[1.6vw] text-primary">
                     ${product.price}
                   </p>
                   <button 
                     onClick={() => sendCartDataToParent(product)}
-                    className="md:text-[1vw] bg-primary text-white px-[5vw] md:px-[2vw] py-[1vw] md:py-[.5vw] rounded-full shadow-md">
+                    className="md:text-[1.2vw] bg-primary text-white px-[5vw] md:px-[2vw] py-[1vw] md:py-[.5vw] rounded-full shadow-md">
                     Add to Cart
                   </button>
                 </div>
