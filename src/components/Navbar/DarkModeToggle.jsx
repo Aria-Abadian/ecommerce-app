@@ -26,7 +26,7 @@ const DarkModeToggle = () => {
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         src={LightButton}
         alt="light-mode-button"
-        className={`w-12 
+        className={`w-12 2xl:w-20 
             cursor-pointer
             absolute
             right-0
@@ -39,7 +39,7 @@ const DarkModeToggle = () => {
       <img
         src={DarkButton}
         alt="light-mode-button"
-        className={`w-12 cursor-pointer ${
+        className={`w-12 2xl:w-20 cursor-pointer ${
           theme === "light" ? "opacity-0" : "opacity-100"
         }`}
       />

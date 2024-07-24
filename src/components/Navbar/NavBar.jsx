@@ -31,7 +31,7 @@ const menuItems = [
 const dropdownItems = [
   {
     id: 1,
-    name: "Trending products",
+    name: "Trending",
     url: "/#",
   },
   {
@@ -50,17 +50,16 @@ const NavBar = ({ openCartMenu, itemLength }) => {
   return (
     <div
       className="
-        bg-white 
         dark:bg-gray-900 
         dark:text-white 
         duration-200 
         relative 
         z-40"
     >
-      <div className="py-4">
+      <div className="py-4 2xl:py-10">
         <div
           className="
-            container 
+            mx-[5vw]
             flex 
             justify-between 
             items-center
@@ -71,6 +70,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
             <a
               className="
                   text-primary 
+                    2xl:text-[2vw]
                     font-semibold
                     tracking-widest
                     text-2xl
@@ -89,6 +89,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
                     <a
                       href={item.url}
                       className="
+                        2xl:text-[1.2vw]
                         inline-block 
                         px-4 
                         font-semibold 
@@ -106,6 +107,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
                 <li className="relative cursor-pointer group">
                   <a
                     className="
+                        2xl:text-[1.2vw]
                         flex 
                         items-center
                         gap-[2px]
@@ -126,6 +128,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
                   </a>
                   {/* Dropdown Items */}
                   <div className="
+                    2xl:text-[1.2vw]
                     absolute 
                     z-99 
                     hidden 
@@ -185,6 +188,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
               />
               <IoMdSearch
                 className="
+                2xl:text-[2vw]
                 text-xl 
                 text-gray-600
                 dark:text-gray-400
@@ -202,6 +206,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
               <LuShoppingCart
                 className="
                     text-xl
+                    2xl:text-[2vw]
                     text-gray-600
                     dark:text-gray-400
                 "
@@ -210,6 +215,8 @@ const NavBar = ({ openCartMenu, itemLength }) => {
                 className="
                     w-4
                     h-4
+                    2xl:w-9
+                    2xl:h-9
                     bg-red-500
                     text-white
                     rounded-full
@@ -220,6 +227,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
                     items-center
                     justify-center
                     text-xs
+                    2xl:text-[1vw]
                 "
               >
                 {itemLength}

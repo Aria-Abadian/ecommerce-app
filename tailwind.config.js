@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        
+        xl: "1536px",
+      },
       colors: {
         primary: "#f42c37",
         secondary: "#f42c37",
@@ -14,11 +18,10 @@ export default {
       },
       container: {
         center: true,
-        padding:{
-          DEFAULT: '1rem',
-          sm: '3rem',
-         
-        }
+        padding: {
+          DEFAULT: "1rem",
+          sm: "3rem",
+        },
       },
     },
   },
