@@ -44,7 +44,7 @@ const Home = ({ handleOrderPopup }) => {
       <Banner data={{ ...BannerData }} />
       <Products />
       <Banner data={{ ...BannerData2 }} />
-      <Blogs />
+      <Blogs id='blogs' />
       <Partners />
     </div>
   );

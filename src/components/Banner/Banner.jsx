@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Shared/Button";
+import { NavLink } from "react-router-dom";
 
 const Banner = ({ data }) => {
   return (
@@ -56,7 +56,7 @@ const Banner = ({ data }) => {
                 style={{ color: data.bgColor }}
                 className="bg-white p-2 px-4 rounded-full"
               >
-                Shop now
+                <NavLink to="/products">Shop now</NavLink>
               </button>
             </div>
           </div>

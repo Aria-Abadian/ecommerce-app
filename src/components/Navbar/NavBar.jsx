@@ -25,24 +25,24 @@ const menuItems = [
   {
     id: 4,
     name: "Blogs",
-    url: "/blogs",
+    url: "/#blogs",
   },
 ];
 const dropdownItems = [
   {
     id: 1,
     name: "Trending",
-    url: "/#",
+    url: "/products",
   },
   {
     id: 2,
     name: "Best selling",
-    url: "/#",
+    url: "/products",
   },
   {
     id: 3,
     name: "Top rated",
-    url: "/#",
+    url: "/products",
   },
 ];
 
@@ -77,7 +77,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
                     uppercase
                     sm:text-3xl
                 "
-              href="#"
+              href="/"
             >
               Shopline
             </a>

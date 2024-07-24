@@ -92,7 +92,7 @@ const App = () => {
             element={<Home handleOrderPopup={handleOrderPopup} />}
           />
         </Routes>
-        <Footer />
+        <Footer id='about'/>
         <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
       </div>
     </Router>

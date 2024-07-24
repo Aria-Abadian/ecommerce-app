@@ -32,9 +32,9 @@ const blogsData = [
   },
 ];
 
-const Blogs = () => {
+const Blogs = ({id}) => {
   return (
-    <div className="my-12">
+    <div className="my-12" id={id}>
       <div className="container">
         {/* heading section */}
         <Heading title="Recent Blogs" subtitle="Explore our Latest Blogs" />

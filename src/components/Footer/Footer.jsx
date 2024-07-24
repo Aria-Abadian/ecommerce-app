@@ -7,39 +7,24 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 
-const Footer = () => {
-  const footerLinks = [
-    {
-      title: "Store",
-      url: "/#",
-    },
-    {
-      title: "About",
-      url: "/#about",
-    },
-    {
-      title: "Contact",
-      url: "/#contact",
-    },
-    
-  ];
+const Footer = ({id}) => {
   const quickAccess = [
     {
       title: "Back to top",
-      url: "/#",
+      url: "#",
     },
     {
       title: "Categories",
-      url: "/#about",
+      url: "/products",
     },
     {
       title: "Blogs",
-      url: "/#blog",
+      url: "/#blogs",
     },
   ];
   return (
-    <div className="dark:bg-gray-950">
-      <div className="container">
+    <div className="dark:bg-gray-950" id={id}>
+      <div className="container ">
         <div className="grid md:grid-cols-3 pb-20 pt-5">
           {/* store detailes */}
           <div className="py-8 px-4">
@@ -52,7 +37,7 @@ const Footer = () => {
                     uppercase
                     sm:text-3xl
                 "
-              href="#"
+              href="/"
             >
               Shopline
             </a>
@@ -74,23 +59,7 @@ const Footer = () => {
           </div>
           {/* footer first column links */}
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-3">
-            <div className="py-8 px-4">
-              <h1 className="text-xl font-bold sm:text-left mb-3">
-                Navigation
-              </h1>
-              <ul className="space-y-3">
-                {footerLinks.map((data, index) => (
-                  <li key={index}>
-                    <a
-                      href={data.url}
-                      className="text-gray-600 hover:text-black dark:hover:text-white duration-300"
-                    >
-                      {data.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            
 
             {/* footer second column links */}
             <div className="py-8 px-4">
@@ -112,7 +81,7 @@ const Footer = () => {
             </div>
             {/* Adresses & contact */}
             <div className="py-8 px-4 col-span-2 sm:col-auto">
-              <h1 className="text-xl font-bold sm:text-left mb-3">Contact</h1>
+              <h3 className="text-xl font-bold sm:text-left mb-3">Contact</h3>
               <div className="flex items-center gap-3">
                 <FaLocationArrow />
                 <p>3415 Sven Spurs, Tomhaven, South Dakota</p>

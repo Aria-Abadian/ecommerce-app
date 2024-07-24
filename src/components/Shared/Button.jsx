@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Button = ({text, bgColor, textColor, handler=() =>{}}) => {
   return (
@@ -17,7 +18,8 @@ const Button = ({text, bgColor, textColor, handler=() =>{}}) => {
              z-10
              
              `}>
-        {text}
+              <NavLink to="/products">{text}</NavLink>
+        
     </button>
   )
 }
