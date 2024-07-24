@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Cart = ({ cartItems,onQuantityIncrease, openCartMenu, closeCartMenu, handleCheckout }) => {
+const Cart = ({ cartItems,onQuantityIncrease, openCartMenu, closeCartMenu, handleCheckout, onQuantityDecrease }) => {
 
   const [quantity, setQuantity] = useState(0);
   
@@ -28,7 +28,7 @@ const Cart = ({ cartItems,onQuantityIncrease, openCartMenu, closeCartMenu, handl
               <p className="">${(cartItem.price * cartItem.quantity).toFixed(2)}</p>
               <div className="flex flex-row gap-[2vw] lg:gap-[.5vw] justify-center items-center">
                 <button
-                  onClick={handleQuantityDecrease}
+                  onClick={() => onQuantityDecrease(cartItem.id)}
                   className="bg-slate-600 w-[4vw] h-[4vw] md:w-[3vw] md:h-[3vw] lg:w-[1.6vw] lg:h-[1.6vw] 
                   translate-y-[.1vw] rounded-full flex justify-center items-center"
                 >
@@ -36,7 +36,7 @@ const Cart = ({ cartItems,onQuantityIncrease, openCartMenu, closeCartMenu, handl
                 </button>
                 <span>{cartItem.quantity}</span>
                 <button
-                  onClick={onQuantityIncrease}
+                  onClick={() => onQuantityIncrease(cartItem.id)}
                   className="bg-primary w-[4vw] h-[4vw] md:w-[3vw] md:h-[3vw] lg:w-[1.6vw] lg:h-[1.6vw]
                   translate-y-[.1vw] rounded-full flex justify-center items-center"
                 >
