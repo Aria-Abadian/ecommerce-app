@@ -178,7 +178,7 @@ const NavBar = ({ openCartMenu, itemLength }) => {
           "
           >
             {/* Search bar */}
-            <div className="relative group hidden sm:block">
+            <div className="relative group hidden">
               <input
                 type="text"
                 placeholder="Search"
